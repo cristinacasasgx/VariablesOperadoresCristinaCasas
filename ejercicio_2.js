@@ -1,7 +1,11 @@
-// Lea dos números y calcule el resultado de su suma, resta, multiplicación y división.
+//Lea dos números y calcule el resultado de su suma, resta, multiplicación y división.
 
-function areaRectangulo(base, altura) {
-    return base * altura;
+function operaciones(a, b) {
+    return {
+        suma: a + b,
+        resta: a - b,
+        multiplicacion: a * b,
+        division: a / b,
+    };
 }
-
-console.log(areaRectangulo(12, 8)); 
+console.log(operaciones(15, 3));
